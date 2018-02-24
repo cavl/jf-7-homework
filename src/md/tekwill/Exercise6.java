@@ -5,6 +5,9 @@ public class Exercise6 {
     public static void main(String[] args) {
         String names = "Alexei,Andrei,Eugen,Jana,Luca,Olea,Serghei,Sergiu,Victor,Vitalie,Vlad";
 
+        int nameIndex = names.indexOf("Eugen");
+
+        System.out.println(names.substring(nameIndex));
 	 /* Use JDK documentation for String class and find a method that
 	  would help you identify the position of word 'Eugen' in the names string.
 

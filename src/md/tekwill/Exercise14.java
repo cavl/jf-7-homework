@@ -6,6 +6,10 @@ public class Exercise14 {
         String names = "Alexei,Andrei,Eugen,Jana,Luca,Olea,Serghei,Sergiu,Victor,Vitalie,Vlad";
 
         StringBuilder stringBuilder = new StringBuilder(names);
+
+        stringBuilder.insert(stringBuilder.lastIndexOf("Luca")+5,"Mihai,");
+
+        System.out.println(stringBuilder);
        /*
        * Use JDK documentation for StringBuilder class and find the method that
        * would help you insert 'Mihai' after 'Luca' in the comma separated names list.
